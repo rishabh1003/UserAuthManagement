@@ -1,0 +1,25 @@
+{
+  "port": 8000,
+  "hostAddress": "172.16.6.52:3042/",
+  "databaseHost": "localhost",
+  "databasePort": "27017",
+  "databaseName": "newNode",
+  "jwtsecret": "nodejwt",
+  "jwtresetsecret": "nodejwt",
+  "nodemailer": {
+    "service": "gmail",
+    "email": "abhijeet.rai@indicchain.com",
+    "password": "dygclgzqcdiqqime"
+  },
+  "jwtOptions": {
+    "expiresIn": "24h"
+  },
+  "secretKey": "G1cjS3jtUXwkh1R1CeCk3Pf1CU30vakNmLRHwaCQokOULaLUHse4TZ7cCeKzLBbaA",
+  "swaggerDefinition": {
+    "info": {
+      "title": "new structure api",
+      "version": "2.0",
+      "description": "all new api "
+    }
+  }
+}
